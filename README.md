@@ -37,3 +37,25 @@ Clean, modern UI with color-coded risk results
 5. Saving the best model and scaler using joblib
 
 6. Deploying model inside Streamlit app 
+
+## How to Run
+
+Follow these steps to set up and run the project locally:
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Khushi-Devi/diabetes_prediction_dashboard.git
+   cd diabetes_prediction_dashboard
+
+
+- Create a virtual environment (recommended)
+
+python -m venv venv
+
+source venv/bin/activate   # On Linux/Mac
+
+venv\Scripts\activate      # On Windows
+
+3.pip install -r requirements.txt
+
+4.streamlit run app.py (run the dashboard)
